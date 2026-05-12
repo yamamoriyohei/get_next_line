@@ -1,0 +1,4 @@
+Hello, 42Tokyo!
+This is line 2.
+And line 3...
+Last line without newline
