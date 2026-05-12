@@ -32,4 +32,4 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 main.c get_next_line.c get_next_line_
 ## Resources
 - [Linux Programmer's Manual - read(2)](https://man7.org/linux/man-pages/man2/read.2.html)
 - [C Programming: Static Variables](https://en.wikipedia.org/wiki/Static_variable)
-- **AIの使用について:** 開発過程において、AI (LLM) を使用しました。具体的には、42の厳格なコーディング規約「Norminette v3（特に関数の25行制限）」に準拠するためのコード構造のリファクタリング、`malloc` 失敗時のエッジケースにおけるメモリリークの特定と解消、および本 README の構造化に利用しています。
+- **AIの使用について:** コードのリファクタリング、`malloc` 失敗時のエッジケースにおけるメモリリークの特定と解消、および本 README の構造化に利用しています。
